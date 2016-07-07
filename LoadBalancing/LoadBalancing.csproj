@@ -139,6 +139,7 @@
     <Compile Include="Custom\Common\Quiz\GameEventCode.cs" />
     <Compile Include="Custom\Common\Quiz\SongGameState.cs" />
     <Compile Include="Custom\Common\Rules.cs" />
+    <Compile Include="Custom\Common\Slugfy.cs" />
     <Compile Include="Custom\Lang\ILang.cs" />
     <Compile Include="Custom\Models\ModelPlayList.cs" />
     <Compile Include="Custom\Models\ModelQuestion.cs" />
@@ -150,10 +151,16 @@
     <Compile Include="Custom\Server\Interfaces\IGame.cs" />
     <Compile Include="Custom\Server\Interfaces\IOperations.cs" />
     <Compile Include="Custom\Server\Logic\SongGame.cs" />
+    <Compile Include="Custom\Server\Logic\Song\History.cs" />
+    <Compile Include="Custom\Server\Logic\Song\PlayerAnswer.cs" />
+    <Compile Include="Custom\Server\Operations\Requests\AnwserBuzzRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\BaseRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\GameStateReadyRequest.cs" />
+    <Compile Include="Custom\Server\Operations\Requests\AnwserTextRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\PlaylistRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\ProfileRequest.cs" />
+    <Compile Include="Custom\Server\Operations\Responses\AnwserTextResponse.cs" />
+    <Compile Include="Custom\Server\Operations\Responses\AnwserBuzzResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\BaseResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\GameStateResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\QuestionListResponse.cs" />
