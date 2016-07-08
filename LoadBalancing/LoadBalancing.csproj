@@ -154,11 +154,13 @@
     <Compile Include="Custom\Server\Logic\Song\History.cs" />
     <Compile Include="Custom\Server\Logic\Song\PlayerAnswer.cs" />
     <Compile Include="Custom\Server\Operations\Requests\AnwserBuzzRequest.cs" />
+    <Compile Include="Custom\Server\Operations\Requests\AnwserOptionRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\BaseRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\GameStateReadyRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\AnwserTextRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\PlaylistRequest.cs" />
     <Compile Include="Custom\Server\Operations\Requests\ProfileRequest.cs" />
+    <Compile Include="Custom\Server\Operations\Responses\AnwserOptionResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\AnwserTextResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\AnwserBuzzResponse.cs" />
     <Compile Include="Custom\Server\Operations\Responses\BaseResponse.cs" />
